@@ -18,10 +18,10 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const stats = [
-  { v: 480, s: "+", l: "Engineers across the globe" },
-  { v: 1200, s: "+", l: "Production deployments" },
-  { v: 99, s: "%", l: "Mission uptime average" },
-  { v: 40, s: "", l: "Countries served" },
+  { v: 3500, s: "+", l: "IT Devices Sold & Configured" },
+  { v: 1500, s: "+", l: "Microsoft 365 & Server Licenses" },
+  { v: 420, s: "+", l: "Cisco & Fortigate Firewalls Managed" },
+  { v: 180, s: "+", l: "Custom Software Solutions Built" },
 ];
 
 export function Stats() {

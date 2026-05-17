@@ -45,35 +45,35 @@
 
   --gradient-hero: radial-gradient(ellipse at top, color-mix(in oklab, var(--neon) 12%, transparent) 0%, transparent 60%);
   --gradient-neon: linear-gradient(135deg, var(--neon) 0%, var(--deep-blue) 100%);
-  --gradient-text: linear-gradient(180deg, oklch(0.98 0 0) 0%, oklch(0.7 0.12 200) 100%);
+  --gradient-text: linear-gradient(135deg, #ffffff 30%, #e9c35b 100%);
 }
 
 :root {
   --radius: 0.75rem;
-  --background: oklch(0.06 0.02 240);
-  --foreground: oklch(0.97 0.01 240);
-  --card: oklch(0.10 0.025 240);
-  --card-foreground: oklch(0.97 0.01 240);
-  --popover: oklch(0.08 0.02 240);
-  --popover-foreground: oklch(0.97 0.01 240);
-  --primary: oklch(0.85 0.18 195);
-  --primary-foreground: oklch(0.08 0.02 240);
-  --secondary: oklch(0.18 0.04 240);
-  --secondary-foreground: oklch(0.97 0.01 240);
-  --muted: oklch(0.14 0.03 240);
-  --muted-foreground: oklch(0.65 0.03 240);
-  --accent: oklch(0.20 0.05 220);
-  --accent-foreground: oklch(0.97 0.01 240);
-  --destructive: oklch(0.65 0.25 25);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.25 0.04 220 / 40%);
-  --input: oklch(0.18 0.04 240);
-  --ring: oklch(0.85 0.18 195);
+  --background: #0b1f3b;
+  --foreground: #ffffff;
+  --card: #0f2648;
+  --card-foreground: #ffffff;
+  --popover: #0d2242;
+  --popover-foreground: #ffffff;
+  --primary: #d4af37;
+  --primary-foreground: #0b1f3b;
+  --secondary: #16335d;
+  --secondary-foreground: #ffffff;
+  --muted: #112b50;
+  --muted-foreground: #a3bccc;
+  --accent: #193c6d;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(212, 175, 55, 0.15);
+  --input: #16335d;
+  --ring: #d4af37;
 
-  --neon: oklch(0.85 0.18 195);
-  --neon-glow: oklch(0.90 0.20 195);
-  --silver: oklch(0.85 0.01 240);
-  --deep-blue: oklch(0.30 0.15 260);
+  --neon: #d4af37;
+  --neon-glow: #e9c35b;
+  --silver: #f1f5f9;
+  --deep-blue: #08172c;
 }
 
 .dark { color-scheme: dark; }
@@ -128,8 +128,8 @@
   }
   .grid-bg {
     background-image:
-      linear-gradient(rgba(64, 224, 208, 0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(64, 224, 208, 0.06) 1px, transparent 1px);
+      linear-gradient(rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212, 175, 55, 0.05) 1px, transparent 1px);
     background-size: 60px 60px;
     mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
   }

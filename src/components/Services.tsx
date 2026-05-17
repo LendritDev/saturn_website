@@ -38,7 +38,7 @@ function Card({ service, i }: { service: Service; i: number }) {
         }}
       >
         <div className="flex items-start justify-between">
-          <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-primary/30 bg-primary/10 text-primary shadow-[inset_0_0_20px_rgba(64,224,208,0.15)]">
+          <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-primary/30 bg-primary/10 text-primary shadow-[inset_0_0_20px_rgba(212,175,55,0.15)]">
             <Icon className="h-5 w-5" />
           </div>
           <span className="font-mono text-xs text-muted-foreground/60">/ {service.tag}</span>

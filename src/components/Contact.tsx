@@ -17,7 +17,7 @@ export function Contact() {
 
           <div className="relative grid gap-10 lg:grid-cols-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.3em] text-primary">[ 05 — Launch ]</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-primary">[ 04 — Launch ]</span>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-tight sm:text-5xl">
                 Let's build<br /><span className="text-gradient">what's next.</span>
               </h2>
@@ -26,13 +26,13 @@ export function Contact() {
               </p>
               <div className="mt-10 space-y-3 text-sm">
                 <div className="flex items-center gap-3 text-muted-foreground">
-                  <span className="text-primary">→</span> hello@saturngroup.tech
+                  <span className="text-primary">→</span> info@saturn-ict.com
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
-                  <span className="text-primary">→</span> +1 (415) 555-0100
+                  <span className="text-primary">→</span> +383 49 58 58 23
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
-                  <span className="text-primary">→</span> San Francisco · Berlin · Singapore
+                  <span className="text-primary">→</span> Pristina, Kosova
                 </div>
               </div>
             </div>

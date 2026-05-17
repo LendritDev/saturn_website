@@ -40,7 +40,7 @@ export function About() {
             <div className="grid grid-cols-3 gap-4 pt-6">
               {[
                 { k: "12+", v: "Years engineering" },
-                { k: "40", v: "Countries deployed" },
+                { k: "7", v: "Countries deployed" },
                 { k: "99.99%", v: "System uptime" },
               ].map((s) => (
                 <div key={s.v} className="glass rounded-xl p-4">

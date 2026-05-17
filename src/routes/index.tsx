@@ -6,7 +6,7 @@ import { Services } from "@/components/Services";
 import { Showcase } from "@/components/Showcase";
 import { Stats } from "@/components/Stats";
 import { Partners } from "@/components/Partners";
-import { Testimonials } from "@/components/Testimonials";
+//import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { StarField } from "@/components/StarField";
@@ -38,7 +38,7 @@ function Home() {
           <Showcase />
           <Stats />
           <Partners />
-          <Testimonials />
+          {/**<Testimonials />**/}
           <Contact />
         </main>
         <Footer />

@@ -1,12 +1,12 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroImg from "@/assets/saturn-hero.jpg";
+import heroImg from "@/assets/saturn_hero.png";
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const y = useTransform(scrollYProgress, [0, 1], [0, -120]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
@@ -17,7 +17,7 @@ export function Hero() {
         <img
           src={heroImg}
           alt="Saturn Group — futuristic technology"
-          className="h-full w-full object-cover opacity-70 animate-spin-slow"
+          className="absolute left-0 right-0 mx-auto h-[85%] w-auto top-[7.5%] object-contain opacity-70 animate-spin-slow mix-blend-screen"
           width={1920}
           height={1080}
         />

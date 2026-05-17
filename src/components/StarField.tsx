@@ -61,7 +61,7 @@ export function StarField() {
         const py = s.y + (dy / (dist || 1)) * push;
         ctx.beginPath();
         ctx.arc(px, py, s.r * s.z, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(180, 240, 255, ${s.z * 0.9})`;
+        ctx.fillStyle = `rgba(255, 255, 255, ${s.z * 0.95})`;
         ctx.fill();
       }
       // particles
@@ -71,8 +71,8 @@ export function StarField() {
         if (p.life <= 0) { particles.splice(i, 1); continue; }
         ctx.beginPath();
         ctx.arc(p.x, p.y, 1.4, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(100, 230, 230, ${p.life})`;
-        ctx.shadowColor = "rgba(100, 230, 230, 0.9)";
+        ctx.fillStyle = `rgba(212, 175, 55, ${p.life})`;
+        ctx.shadowColor = "rgba(212, 175, 55, 0.9)";
         ctx.shadowBlur = 12;
         ctx.fill();
         ctx.shadowBlur = 0;
